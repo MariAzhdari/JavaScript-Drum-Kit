@@ -1,0 +1,42 @@
+
+
+/* Styling for the key labels */
+.key kbd {
+  font-size: 18px;
+}
+
+
+/* Styling for the keys */
+.keys {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 660px;
+  margin: 0 auto;
+  margin-top: 300px;
+}
+
+.key {
+  display: inline-block;
+  border: 1px solid #000;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  text-align: center;
+  margin: 5px;
+  cursor: pointer;
+}
+
+
+/* Styling for the sound labels */
+.key .sound {
+  font-size: 12px;
+}
+
+/* Background image */
+body {
+  background-image: url("https://images.unsplash.com/photo-1610970883859-fbc973bffbd8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fG11c2ljJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=1000");
+  background-size: cover;
+  background-position: center;
+}
