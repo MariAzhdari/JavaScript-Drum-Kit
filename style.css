@@ -19,7 +19,7 @@
 
 .key {
   display: inline-block;
-  border: 1px solid #000;
+  border: 5px solid #000;
   transition:all 0.07;
   padding: 10px;
   border-radius: 5px;
@@ -30,8 +30,9 @@
 }
 
 .play{
-  transform: scale(2);
-   border-color:  #df3f3f;
+  transform: scale(1.1);
+   border-color:  #dfc73f;
+   box-shadow:2px 1px 20px yellow;
 
 }
 

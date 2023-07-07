@@ -6,6 +6,13 @@
    audio.currentTime = 0;
    audio.play()
    key.classList.add("play")
+
+ function removeEventListenertran(e){
+   if (e.propertyName !== "transform") return;
+   this.classList.remove("play");
+ };
+
+   const keys=document.querySelectorAll(".key")
+   keys.forEach(key => key.addEventListener("transitionend" ,removeEventListenertran));
   
-   
    });
